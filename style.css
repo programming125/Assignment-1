@@ -1,0 +1,222 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+}
+/* imborb */
+.contenar{
+    max-width: 1100px;
+    margin:auto;
+}
+             
+/*contenar-btn*/
+.contenar-btn{
+  background-color:blue;
+    padding:6px 15px;
+    border-radius: 12px;
+    font-weight:bold;
+    font-size:18px;
+    color:white;
+    border:none;
+}
+ 
+ 
+/*left style*/
+
+nav{
+    display: flex;
+    justify-content:space-between ;
+    padding:8px ;
+    margin-top:20px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    gap: 20px;
+    align-items: center;
+    
+}
+ul li a{
+    text-decoration: none;
+   color:black ;
+}
+/*logo benar*/
+
+
+.benar{
+    position: relative;
+    font-display: auto;
+}
+.hero-btn{
+    margin-top: 500px;
+}
+.hero-btn{
+background-color:rgb(48, 48, 224);
+    padding:10px 20px;
+    border-radius: 15px;
+    font-weight:bold;
+    font-size:25px;
+    color:white;
+    border:none
+}    
+
+    
+/*text*/
+.text{
+    position: absolute;
+    top:100px;
+    left:25%;
+    color:white;
+    text-align: center;
+    
+}
+.text h1{
+    
+    font-size:55px;  
+   
+}
+/* body to imgs*/
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-top:30px;
+}
+
+.gallery > div{
+    border:1px solid #ddd;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.gallery img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    display:block;
+}
+
+.gallery nav{
+    display:block;
+    margin:15px 20px 5px;
+    
+}
+
+.gallery h3,
+.gallery p{
+    margin-left:20px;
+}
+/*per Derson-card*/
+.per-person{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.dot-list-1,
+.dot-list-2,
+.dot-list-3{
+    width: 320px;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.dot-list-1{
+    background: white;
+    border: 1px solid #ddd;
+}
+
+.dot-list-2{
+    background: #111827;
+    color: white;
+}
+
+.dot-list-3{
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+/* logo prosoing */
+.pricing-header{
+    text-align: center;
+    margin-bottom: 50px ;
+}
+.dot-list-1 h1,
+.dot-list-2 h1,
+.dot-list-3 h1{
+    font-size: 56px;
+    margin: 10px 0;
+}
+
+.dot-list-1 p,
+.dot-list-2 p,
+.dot-list-3 p{
+    margin-bottom: 20px;
+}
+
+.dot-list-1 hr,
+.dot-list-2 hr,
+.dot-list-3 hr{
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.dot-list-2 hr{
+    border-top: 1px solid #374151;
+}
+
+.dot-list-1 ul,
+.dot-list-2 ul,
+.dot-list-3 ul{
+    display: block;
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    flex: 1;
+}
+
+.dot-list-1 li,
+.dot-list-2 li,
+.dot-list-3 li{
+margin-bottom: 14px;
+}
+
+/* Button */
+
+.dot-list-1 button,
+.dot-list-2 button,
+.dot-list-3 button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dot-list-1 button{
+    background: white;
+    color: #2563eb;
+    border: 2px solid #2563eb;
+}
+
+.dot-list-2 button{
+    background: #3b82f6;
+    color: white;
+    border: none;
+}
+
+.dot-list-3 button{
+    background: white;
+    color: black;
+    border: 2px solid #999;
+}
